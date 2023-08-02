@@ -10,6 +10,7 @@
     position: sticky;
     top:0px;
     background-color: white;
+    z-index: 1;
 }
 
 .verticle-line{
@@ -74,7 +75,7 @@
     margin-inline: auto;
     width: 85vw;
     justify-content: center;
-    overflow-x: auto;
+    
 
 }
 
@@ -119,6 +120,146 @@
 }
 .mycat-row{
     flex-wrap: wrap;
-    white-space: nowrap;
+      overflow-x: auto;
 
+}
+
+.my-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    margin-inline: auto;
+}
+.row-3{
+ text-align: justify;
+ font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-family: OKRA-REGULAR;
+    line-height: 18px;
+    margin: 12px;
+}
+    
+ .row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 20px;
+    
+}
+
+
+.row-2-col-1{
+    width: 30vw;
+    color: rgb(102, 102, 102);
+    
+      
+        justify-content: flex-start;
+     
+        align-items: center;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        /* height: 100%; */
+    
+    
+}
+.row-2-col-2
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row-2-col-3{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* .row-2-col-3>div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    background-color: black;
+    margin-inline: 5px;
+} */
+
+.row-1{
+    display: flex;
+    justify-items: center;
+    
+    width: 85vw;
+    margin-inline: auto;
+   
+}
+.row-1-col-1{
+    width: 40vw;
+    margin-top: 0;
+}
+.row-1-col-2{
+    width: 45vw;
+}
+
+
+td{
+    width: 150px;
+    color: #666666;
+    line-height: 30px;
+}
+.table-1-heading{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.table-2-heading{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.table-2-heading>span{
+    color: #62AD71;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.footer-table-2 td{
+    width: 300px;
+}
+.row-2-col-3>div>i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-inline: 5px;
+}
+
+
+@media screen  and (max-width:600px){
+    .row-1 {
+        display: none;
+
+    }
+    .row-2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .row-2-col-1{
+        width: 100vw;
+    }
+    .row-3{
+     
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .row-1-col-1{
+        flex-direction: column;
+    }
 }
