@@ -235,7 +235,7 @@ td{
     margin-inline: 5px;
 }
 
-
+/* 
 @media screen  and (max-width:600px){
     .row-1 {
         display: none;
@@ -262,4 +262,4 @@ td{
     .row-1-col-1{
         flex-direction: column;
     }
-}
+} */
