@@ -60,3 +60,65 @@
     display: inline-block;
     margin: 10px;
 }
+
+.mycat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85vw;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+.mycat-div{
+    margin-inline: auto;
+    width: 85vw;
+    justify-content: center;
+    overflow-x: auto;
+
+}
+
+.my-card{
+    width: 190px;
+    box-sizing: border-box;
+        flex-direction: row;
+        margin: 10px;
+        overflow-x: auto;
+}
+
+.time-taken{
+    font-size: 9px;
+    font-weight: 700;
+    color: rgb(54, 54, 54); 
+    width: fit-content;
+    padding: 3px 3px;
+
+}
+
+.product-name{
+    color: rgb(31,31,31);
+    font-weight: 600;
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 6px;
+    
+}
+
+.product-weight{
+    height: 13px;
+    color: #666666;
+    font-size: 9px;
+}
+
+.product-price{
+     color: rgb(31,31,31);
+    font-weight: 600;
+    font-size: 12px;
+    
+  
+}
+.mycat-row{
+    flex-wrap: wrap;
+    white-space: nowrap;
+
+}
